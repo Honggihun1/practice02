@@ -1,0 +1,202 @@
+@charset "EUC-KR";
+
+body{ font-family: 'Nanum Gothic', sans-serif;
+}
+
+
+
+.hong{
+	width: 2000px;
+	height: 2000px;
+	background: black;
+	text-align: center;
+	line-height: 460px;
+}
+
+p{
+	transition : all .1s;
+}
+
+@keyframes h{
+	3%{
+	opacity:0;
+	}
+	4%{
+	opacity:1;
+	}
+	5%{
+	opacity:0;
+	}
+	6%{
+	opacity:1;
+	}
+	7%{
+	opacity:0;
+	}
+	8%{
+	opacity:1;
+	}	
+	90%{	
+	opacity:1;
+	}
+}
+@keyframes o{
+	18%{
+	opacity:0;
+	}
+	19%{
+	opacity:1;
+	}
+	20%{
+	opacity:0;
+	}
+	
+	21%{
+	opacity:1;
+	}
+	22%{
+	opacity:0;
+	}
+	23%{
+	opacity:1;
+	}
+	90%{	
+	opacity:1;
+	}
+}
+@keyframes n{
+	33%{
+	opacity: 0;
+	}
+	34%{
+	opacity: 1;
+	}
+	35%{
+	opacity: 0;
+	}
+	36%{
+	opacity:1;
+	}
+	37%{
+	opacity:0;
+	}
+	38%{
+	opacity:1;
+	}
+	90%{	
+	opacity:1;
+	}
+}
+@keyframes g{
+	48%{
+	opacity: 0;
+	}
+	49%{
+	opacity: 1;
+	}
+	50%{
+	opacity: 0;
+	}
+	51%{
+	opacity:1;
+	}
+	52%{
+	opacity:0;
+	}
+	53%{
+	opacity:1;
+	}
+	90%{	
+	opacity:1;
+	}
+}
+
+/* 
+@keyframes flicker {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+	text-shadow: 0 0 5px #fff, 0 0 13px #fff, 0 0 20px #fff;
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+} */
+/* 
+@keyframes flicker2 {
+    
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+	text-shadow: 0 0 0px #87e3ff, 0 0 13px #87e3ff, 0 0 20px #87e3ff;
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+ */
+
+
+.h{
+	color: white;
+	display: inline-block;	
+	font-size: 160px;
+	text-transform: uppercase;
+	font-weight: 1000;
+	background: black;
+	opacity: 0;
+	animation : 0.3s infinite flicker, 10s infinite h;	
+	text-shadow: 0 0 5px #fff, 0 0 13px #fff, 0 0 20px #fff;
+}
+.o{
+	color: white;
+	display: inline-block;	
+	font-size: 160px;
+	text-transform: uppercase;
+	font-weight: 1000;
+	background: black;
+	opacity: 0;
+	animation : 0.31s infinite flicker, 10s  infinite o;
+	text-shadow: 0 0 5px #fff, 0 0 13px #fff, 0 0 20px #fff;
+}
+
+.h:hover{
+	opacity: 1;
+}
+.o:hover{
+	opacity: 1;
+}
+.n:hover{
+	opacity: 1;
+}
+.g:hover{
+	opacity: 1;
+}
+
+
+.n{
+	color: #87e3ff;
+	display: inline-block;
+	font-size: 160px;
+	text-transform: uppercase;
+	font-weight: 1000;
+	background: black;
+	opacity: 0;
+	animation :0.23s infinite flicker2, 10s infinite n;
+	text-shadow: 0 0 0px #87e3ff, 0 0 13px #87e3ff, 0 0 20px #87e3ff;
+}
+.g{
+	color: #87e3ff;
+	display: inline-block;
+	font-size: 160px;
+	text-transform: uppercase;
+	font-weight: 1000;
+	background: black;
+	opacity: 0;
+	animation : 0.12s infinite flicker2, 10s infinite g;
+	text-shadow: 0 0 0px #87e3ff, 0 0 13px #87e3ff, 0 0 20px #87e3ff;	
+	font-family: sans-serif;
+}
+
+
+
